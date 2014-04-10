@@ -1,4 +1,5 @@
 //Load venues or redirect
+
 jQuery(document).ready(function(){
 
       if (!localStorage.authorization||!localStorage.color||!localStorage.gangster||!localStorage.gang) {

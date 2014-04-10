@@ -91,7 +91,16 @@
 
 }
 
+.ui-page{
+	-webkit-backface-visibility: hidden;
+	-ms-backface-visibility:hidden;
+	-msie-backface-visibility:hidden;
+	backface-visibility:hidden;
+}
+
 html {
+    -webkit-backface-visibility: hidden;
+
     height: 100%;
 }
 

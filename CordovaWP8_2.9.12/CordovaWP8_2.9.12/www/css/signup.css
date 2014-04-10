@@ -19,15 +19,13 @@ h1 {
 }
 
 body#signup.neutral {
+    background: -moz-linear-gradient(top,  #89ffd2 0%, #30b4f2 49%, #8331f7 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#89ffd2), color-stop(49%,#30b4f2), color-stop(100%,#8331f7));
+    background: -webkit-linear-gradient(top,  #89ffd2 0%,#30b4f2 49%,#8331f7 100%);
+    background: -o-linear-gradient(top,  #89ffd2 0%,#30b4f2 49%,#8331f7 100%);
+    background: -ms-linear-gradient(top,  #89ffd2 0%,#30b4f2 49%,#8331f7 100%);
+    background: linear-gradient(to bottom,  #89ffd2 0%,#30b4f2 49%,#8331f7 100%);
 
-    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(26%, #820fff), color-stop(62%, #2e91ff), color-stop(96%, #1afaff));
-    background: -webkit-linear-gradient(right bottom, #820fff 26%, #2e91ff 62%, #1afaff 96%) fixed;
-    background-image: -moz-linear-gradient(right bottom, #820fff 26%, #2e91ff 62%, #1afaff 96%);
-    background-image: -ms-linear-gradient(right bottom, #820fff 26%, #2e91ff 62%, #1afaff 96%);
-    background-image: -o-linear-gradient(right bottom, #820fff 26%, #2e91ff 62%, #1afaff 96%);
-    background-image: linear-gradient(to left top, #820fff 26%, #2e91ff 62%, #1afaff 96%);
-
-    /*background: black;*/
 }
 
 body#signup.purple {
@@ -138,6 +136,7 @@ button#trigger-overlay2 {
     background: rgba(0,0,0,.2);
     top: -33px;
     right: -2px;
+	visibility: hidden;
     float: right;
     z-index: 6000;
     -webkit-animation-delay: .5s;
@@ -426,7 +425,7 @@ small {
 }
 
 /* Overlay closing cross */
-.overlay .overlay-close, .overlay2 .overlay-close {
+.overlay .overlay-close, .overlay2 .overlay-close2 {
     padding: 10px 20px 10px 25px;
     position: absolute;
     right: -2px;
@@ -436,17 +435,17 @@ small {
     border: none;
     color: white;
     outline: none;
-    z-index: 100;
+    z-index: 1000;
 }
 
 
 /* Effects */
 html, body {
-    overflow-x: visible;
+    overflow-x: hidden;
 }
 
 .container {
-    overflow-x: visible;
+    overflow-x: hidden;
     -webkit-transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
 }
@@ -459,7 +458,7 @@ html, body {
 .container::after {
     content: '';
     opacity: 0;
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -486,16 +485,23 @@ html, body {
     background-image: -o-linear-gradient(top, #8f29ff 30%, #1afaff 105%);
     background-image: linear-gradient(to bottom, #8f29ff 30%, #1afaff 105%);
 */
-    visibility: visible;
+    visibility: hidden;
     -webkit-backface-visibility: hidden;
-    backface-visibility: visible;
+    backface-visibility: hidden;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
     -webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
     transition: transform 0.5s, visibility 0s 0.5s;
 }
 
-.overlay2.overlay-contentpush {
+.overlay2.overlay-contentpush2 {
+       visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+    transition: transform 0.5s, visibility 0s 0.5s;
     background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0%, #FF502D), color-stop(25%, #EB5600), color-stop(83%, #D62B00));
     background-image: -webkit-linear-gradient(bottom, #FF502D 0%, #EB5600 25%, #D62B00 83%);
     background-image: -moz-linear-gradient(bottom, #FF502D 0%, #EB5600 25%, #D62B00 83%);
@@ -504,12 +510,12 @@ html, body {
     background-image: linear-gradient(to top, #FF502D 0%, #EB5600 25%, #D62B00 83%);
 }
 
-.overlay2.overlay-contentpush h2 {
+.overlay2.overlay-contentpush2 h2 {
     font-size: 1.8em;
     padding-bottom: 20px;
 }
 
-.overlay2.overlay-contentpush p {
+.overlay2.overlay-contentpush2 p {
     padding-left: 20px;
     font-size: .9em;
     position: relative;
@@ -523,6 +529,15 @@ html, body {
     -webkit-transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
 }
+
+.overlay-contentpush2.open {
+    visibility: visible;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
 
 section.alert-content {
     text-align: left;

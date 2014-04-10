@@ -26,7 +26,9 @@ $(document).ready(function(){
     }).change();
 
     //Form submission
-    $('.btn.btntxt').one( "click", function() {
+    $('.btn.btntxt').on( "click", function() {
+
+
         //TODO: Validate.
         //TODO Check same password
 
@@ -44,6 +46,10 @@ $(document).ready(function(){
             password: password,
             gang: gang
         };
+		
+
+		
+
 
         $.post( endpoint, attr).done(function( data ) {
                 var authorization = make_base_auth(username, password);
@@ -53,9 +59,8 @@ $(document).ready(function(){
                 localStorage.gang=data['gang'];
                 window.location.replace("index.html");
             }).fail(function( jqXHR, textStatus ) {
-            //TODO fix this
-                //alert("Error");
-				window.location.replace("signup.html");
+				//window.location.replace("signup.html");
+				$('#trigger-overlay2').click();
             });
 
 });

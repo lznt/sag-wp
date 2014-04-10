@@ -48,7 +48,7 @@
 	var container = document.querySelector( 'div.container' ),
 		triggerBttn = document.getElementById( 'trigger-overlay2' ),
 		overlay = document.querySelector( 'div.overlay2' ),
-		closeBttn = overlay.querySelector( 'button.overlay-close' );
+		closeBttn = overlay.querySelector( 'button.overlay-close2' );
 		transEndEventNames = {
 			'WebkitTransition': 'webkitTransitionEnd',
 			'MozTransition': 'transitionend',

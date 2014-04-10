@@ -36,6 +36,7 @@ mixpanel.init("21b5b03d56c32459d17071cb2073ffce");</script><!-- end Mixpanel -->
 
 		<div class="header">
 			<a href="splash.html" class="back"><i class="icon-arrow-left-big"></i></a>
+
       <button id="trigger-overlay" type="button">
         <span class="icon-question"></span>
       </button>
@@ -48,10 +49,10 @@ mixpanel.init("21b5b03d56c32459d17071cb2073ffce");</script><!-- end Mixpanel -->
 
 			<div class="form">
 				<form>
-					<input type="text" class="input" placeholder="Nickname" id ="username" maxlength="8">
-					<input type="text" class="input" placeholder="Email"  id ="email">
-					<input type="password" class="input" placeholder="Password" id ="password">
-					<input type="password" class="input" placeholder="Password again" id ="rePassword">
+					<input type="text" class="input" placeholder="Nickname" id ="username" maxlength="8"/>
+					<input type="text" class="input" placeholder="Email"  id ="email"/>
+					<input type="password" class="input" placeholder="Password" id ="password"/>
+					<input type="password" class="input" placeholder="Password again" id ="rePassword"/>
 					<select id="gang" name="gang" class="feedback-input">
 						<option id="neutral">Choose Your Gang</option>
 						<!--TODO: Get data from the server-->
@@ -70,33 +71,35 @@ mixpanel.init("21b5b03d56c32459d17071cb2073ffce");</script><!-- end Mixpanel -->
 
 	</div>
 
-	<div class="overlay overlay-contentpush">
-		<button type="button" class="overlay-close"><i class="icon-remove"></i></button>
-		 <div class="wrap">
-					 
-			    <div class="tile purple-knights" id="first">
-			        <i class="icon-droplet"></i>          
-			        <h2 class="gang-name" id="name">Purple Knights</h2>
-			        <p>Chivalry is not dead it just has a new definition at the other end of the spectrum... of visible light. Instead of brute force these knights apply paint.</p>
-			    </div>					          
-			 
-			    <div class="tile blue-angels" id="second">
-			        <i class="icon-droplet"></i>          
-			        <h2 class="gang-name" id="name">Blue Angels</h2>
-			        <p>There are the sublime and the fallen ones and then there are those in between. All are welcome to spread the gospel of "This city belongs to the Angels.</p>
-			    </div>					          
-			 
-			    <div class="tile green-shamans" id="third">
-			        <i class="icon-droplet"></i>          
-			        <h2 class="gang-name" id="name">Green Shamans</h2>
-			        <p>An eclectic mix of green peas and biohactivists who aim to reclaim the city for mother nature. Some say they have magic, some say they just are contagious.</p>
-			    </div>					          
+  <div class="overlay overlay-contentpush">
+    <button type="button" class="overlay-close">
+      <i class="icon-remove"></i>
+    </button>
+    <div class="wrap">
 
-			</div>				
-		</div>
+      <div class="tile purple-knights" id="first">
+        <i class="icon-droplet"></i>
+        <h2 class="gang-name" id="name">Purple Knights</h2>
+        <p>Chivalry is not dead it just has a new definition at the other end of the spectrum... of visible light. Instead of brute force these knights apply paint.</p>
+      </div>
 
-	<div class="alert overlay2 overlay-contentpush">
-		<button type="button" class="overlay-close"><i class="icon-remove"></i></button>
+      <div class="tile blue-angels" id="second">
+        <i class="icon-droplet"></i>
+        <h2 class="gang-name" id="name">Blue Angels</h2>
+        <p>There are the sublime and the fallen ones and then there are those in between. All are welcome to spread the gospel of "This city belongs to the Angels.</p>
+      </div>
+
+      <div class="tile green-shamans" id="third">
+        <i class="icon-droplet"></i>
+        <h2 class="gang-name" id="name">Green Shamans</h2>
+        <p>An eclectic mix of green peas and biohactivists who aim to reclaim the city for mother nature. Some say they have magic, some say they just are contagious.</p>
+      </div>
+
+    </div>
+  </div>
+
+	<div class="alert overlay2 overlay-contentpush2">
+		<button type="button" class="overlay-close2" id="errormodal"><i class="icon-remove"></i></button>
 
 		<section class="alert-content">
 
@@ -111,12 +114,12 @@ mixpanel.init("21b5b03d56c32459d17071cb2073ffce");</script><!-- end Mixpanel -->
 
 
 <!-- Scripts -->
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/modalclassie.js"></script>
-<script src="js/modalscript.js"></script>
- <script src="js/jquery.fittext.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/signup.js"></script>
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/modalclassie.js"></script>
+  <script src="js/modalscript.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/signup.js"></script>
 
 </body>
 </html>
