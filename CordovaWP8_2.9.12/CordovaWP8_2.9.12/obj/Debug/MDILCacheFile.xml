@@ -1,6 +1,34 @@
-﻿<xapCache source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10.4.2014 16:30:26">
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\obj\Debug\CordovaWP8_2.9.12.dll" archivePath="CordovaWP8_2.9.12.dll" lastWriteTime="10.4.2014 11:59:41" />
+﻿<xapCache source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="15.4.2014 11:59:06">
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\obj\Debug\CordovaWP8_2.9.12.dll" archivePath="CordovaWP8_2.9.12.dll" lastWriteTime="15.4.2014 11:59:05" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\config.xml" archivePath="config.xml" lastWriteTime="9.4.2014 11:11:12" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\css\bootstrap.min.css" archivePath="www\docs\css\bootstrap.min.css" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\css\common.css" archivePath="www\docs\css\common.css" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\css\prettify.css" archivePath="www\docs\css\prettify.css" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\css\print.css" archivePath="www\docs\css\print.css" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\files.html" archivePath="www\docs\files.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\img\class.png" archivePath="www\docs\img\class.png" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\img\classicons.png" archivePath="www\docs\img\classicons.png" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\img\event.png" archivePath="www\docs\img\event.png" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\img\glyphicons-halflings-white.png" archivePath="www\docs\img\glyphicons-halflings-white.png" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\img\glyphicons-halflings.png" archivePath="www\docs\img\glyphicons-halflings.png" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\img\interface.png" archivePath="www\docs\img\interface.png" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\img\namespace.png" archivePath="www\docs\img\namespace.png" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\index.html" archivePath="www\docs\index.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\img\gamearea.png" archivePath="www\img\gamearea.png" lastWriteTime="15.4.2014 10:50:18" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\accordion.js" archivePath="www\js\accordion.js" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\jquery-1.7.2.min.js" archivePath="www\js\jquery-1.7.2.min.js" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\jquery.liquid-slider.js" archivePath="www\js\jquery.liquid-slider.js" lastWriteTime="15.4.2014 11:55:41" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\prettify.js" archivePath="www\js\prettify.js" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\$.fn.html" archivePath="www\docs\symbols\$.fn.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\$.fn.swipe.defaults.html" archivePath="www\docs\symbols\$.fn.swipe.defaults.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\$.fn.swipe.directions.html" archivePath="www\docs\symbols\$.fn.swipe.directions.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\$.fn.swipe.fingers.html" archivePath="www\docs\symbols\$.fn.swipe.fingers.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\$.fn.swipe.html" archivePath="www\docs\symbols\$.fn.swipe.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\$.fn.swipe.pageScroll.html" archivePath="www\docs\symbols\$.fn.swipe.pageScroll.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\$.fn.swipe.phases.html" archivePath="www\docs\symbols\$.fn.swipe.phases.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\$.html" archivePath="www\docs\symbols\$.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\src\jquery.touchSwipe.js.html" archivePath="www\docs\symbols\src\jquery.touchSwipe.js.html" lastWriteTime="10.4.2014 19:46:13" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\docs\symbols\_global_.html" archivePath="www\docs\symbols\_global_.html" lastWriteTime="10.4.2014 19:46:13" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\chat.html" archivePath="www\chat.html" lastWriteTime="10.4.2014 11:58:45" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="9.4.2014 11:11:12" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\css\animate.css" archivePath="www\css\animate.css" lastWriteTime="9.4.2014 11:12:39" />
@@ -27,7 +55,7 @@
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\css\styles.css" archivePath="www\css\styles.css" lastWriteTime="9.4.2014 11:12:39" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\css\tweaks.css" archivePath="www\css\tweaks.css" lastWriteTime="9.4.2014 14:33:22" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\css\universal.css" archivePath="www\css\universal.css" lastWriteTime="10.4.2014 11:11:05" />
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\faq.html" archivePath="www\faq.html" lastWriteTime="10.4.2014 11:58:40" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\faq.html" archivePath="www\faq.html" lastWriteTime="15.4.2014 10:55:10" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\favicon.ico" archivePath="www\favicon.ico" lastWriteTime="9.4.2014 11:12:01" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\img\arrow.png" archivePath="www\img\arrow.png" lastWriteTime="9.4.2014 11:12:31" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\img\blue.jpg" archivePath="www\img\blue.jpg" lastWriteTime="9.4.2014 11:12:31" />
@@ -59,17 +87,17 @@
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\img\purplespray.png" archivePath="www\img\purplespray.png" lastWriteTime="9.4.2014 11:12:31" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\img\responsivemobilemenu.css" archivePath="www\img\responsivemobilemenu.css" lastWriteTime="9.4.2014 13:21:18" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\img\sapphire-menu-bg.png" archivePath="www\img\sapphire-menu-bg.png" lastWriteTime="9.4.2014 13:24:58" />
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\index.html" archivePath="www\index.html" lastWriteTime="10.4.2014 11:58:04" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\index.html" archivePath="www\index.html" lastWriteTime="15.4.2014 11:59:02" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="9.4.2014 14:46:38" />
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\chat.js" archivePath="www\js\chat.js" lastWriteTime="9.4.2014 17:14:32" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\chat.js" archivePath="www\js\chat.js" lastWriteTime="15.4.2014 10:46:08" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\classie_menu.js" archivePath="www\js\classie_menu.js" lastWriteTime="9.4.2014 11:12:23" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\classie_modal.js" archivePath="www\js\classie_modal.js" lastWriteTime="9.4.2014 11:12:23" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\faq.js" archivePath="www\js\faq.js" lastWriteTime="9.4.2014 17:11:35" />
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\geo.js" archivePath="www\js\geo.js" lastWriteTime="9.4.2014 11:12:23" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\geo.js" archivePath="www\js\geo.js" lastWriteTime="10.4.2014 17:20:28" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\gnmenu.js" archivePath="www\js\gnmenu.js" lastWriteTime="9.4.2014 13:19:27" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\idangerous.swiper-2.2.min.js" archivePath="www\js\idangerous.swiper-2.2.min.js" lastWriteTime="9.4.2014 11:12:23" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\idangerous.swiper-selection-2.1.min.js" archivePath="www\js\idangerous.swiper-selection-2.1.min.js" lastWriteTime="9.4.2014 11:12:23" />
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="10.4.2014 10:54:28" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\index.js" archivePath="www\js\index.js" lastWriteTime="15.4.2014 11:31:28" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="9.4.2014 11:11:12" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="9.4.2014 11:11:12" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="9.4.2014 11:11:12" />
@@ -82,6 +110,7 @@
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\jquery.fittext.js" archivePath="www\js\jquery.fittext.js" lastWriteTime="9.4.2014 11:12:25" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\jquery.lettering.js" archivePath="www\js\jquery.lettering.js" lastWriteTime="9.4.2014 11:12:25" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\jquery.liquid-slider-custom.min.js" archivePath="www\js\jquery.liquid-slider-custom.min.js" lastWriteTime="9.4.2014 11:12:22" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\jquery.touchSwipe.js" archivePath="www\js\jquery.touchSwipe.js" lastWriteTime="10.4.2014 19:45:40" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\jquery.touchSwipe.min.js" archivePath="www\js\jquery.touchSwipe.min.js" lastWriteTime="9.4.2014 11:12:22" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\leaderboard.js" archivePath="www\js\leaderboard.js" lastWriteTime="9.4.2014 17:50:25" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\login.js" archivePath="www\js\login.js" lastWriteTime="9.4.2014 11:12:22" />
@@ -100,8 +129,8 @@
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\profile-gang.js" archivePath="www\js\profile-gang.js" lastWriteTime="9.4.2014 17:28:22" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\profile.js" archivePath="www\js\profile.js" lastWriteTime="9.4.2014 17:28:32" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\responsivemobilemenu.js" archivePath="www\js\responsivemobilemenu.js" lastWriteTime="9.4.2014 16:02:24" />
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\scripts.js" archivePath="www\js\scripts.js" lastWriteTime="9.4.2014 11:12:22" />
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\signup.js" archivePath="www\js\signup.js" lastWriteTime="10.4.2014 16:30:23" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\scripts.js" archivePath="www\js\scripts.js" lastWriteTime="10.4.2014 18:44:28" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\signup.js" archivePath="www\js\signup.js" lastWriteTime="10.4.2014 17:08:52" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\splash.js" archivePath="www\js\splash.js" lastWriteTime="10.4.2014 10:54:25" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\spraying.js" archivePath="www\js\spraying.js" lastWriteTime="9.4.2014 11:12:23" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\www\js\svgcheckbx.js" archivePath="www\js\svgcheckbx.js" lastWriteTime="9.4.2014 11:12:23" />
@@ -121,5 +150,5 @@
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9.4.2014 11:12:48" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="9.4.2014 11:11:12" />
   <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="9.4.2014 11:11:12" />
-  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="9.4.2014 12:09:31" />
+  <file source="c:\users\lasse\documents\visual studio 2012\Projects\CordovaWP8_2.9.12\CordovaWP8_2.9.12\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10.4.2014 18:56:43" />
 </xapCache>

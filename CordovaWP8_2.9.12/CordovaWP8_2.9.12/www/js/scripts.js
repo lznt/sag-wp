@@ -238,7 +238,8 @@ var updateUserPosition = function(latitude,longitude) {
                 latitude: latitude,
                 longitude: longitude,
                 last_action: now
-            }
+           }
+		alert("updateUserPOS");
 
         $.ajax({
               type: "PATCH",
@@ -249,7 +250,7 @@ var updateUserPosition = function(latitude,longitude) {
                 xhr.setRequestHeader ("Authorization", authorization);
               }
           }).done(function( data ) {
-
+			alert("location ajax done");
 
         }).fail(function( jqXHR, textStatus ) {
         //TODO fix this

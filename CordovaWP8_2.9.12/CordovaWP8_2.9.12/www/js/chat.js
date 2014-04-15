@@ -41,6 +41,7 @@ jQuery(document).ready(function(){
           }).done(function( data ) {
                 mood: $('.chatter_field').val("");
                 retrieveMSG();
+				location.reload();
           }).fail(function( jqXHR, textStatus ) {
             //TODO fix this
             alert("Error: something went wrong while updating the location: "+ textStatus);
@@ -48,6 +49,7 @@ jQuery(document).ready(function(){
 
         });
       }
+
 });
 
 
@@ -65,8 +67,7 @@ var retrieveMSG = function() {
     }
   }).done(function( data ) {
     $(".chatter").empty();
-	
-	
+	//P‰‰st‰‰n t‰h‰n asti!!!	
 	var senderList = retreiveSenders(data,authorization); // Array of gangster ID corresponding names
 	
     for (var i = 0; i < data.length; i++) {
@@ -100,13 +101,13 @@ var retrieveMSG = function() {
     };
 
          $('.message-element').addClass('animated rollIn');
-   
 
   }).fail(function( jqXHR, textStatus ) {
   //TODO fix this
     alert("Error: something went wrong while loading the profile: "+ textStatus);
   });
   }
+
   function retreiveSenders(msgData,authorization){	
 		
 		var authorization=localStorage.authorization;

@@ -48,8 +48,6 @@ $(document).ready(function(){
         };
 		
 
-		
-
 
         $.post( endpoint, attr).done(function( data ) {
                 var authorization = make_base_auth(username, password);

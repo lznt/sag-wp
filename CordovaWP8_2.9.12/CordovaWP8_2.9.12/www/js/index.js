@@ -1,7 +1,11 @@
 //Load venues or redirect
 
-jQuery(document).ready(function(){
 
+jQuery(document).ready(function(){
+	//Disable caching to make retrievement of location every time!
+
+
+	$.ajaxSetup({ cache: false });
       if (!localStorage.authorization||!localStorage.color||!localStorage.gangster||!localStorage.gang) {
         window.location.replace("splash.html");
       } else {
@@ -26,10 +30,10 @@ jQuery(document).ready(function(){
         //Check GPS
         watchGPS();
 		//$('#to-left', '#to-right').on
-
         //Get Venues
         var authorization=localStorage.authorization;
         var endpoint = "http://vm0063.virtues.fi/venues/";
+
         $.ajax({
           type: "GET",
           url: endpoint,
@@ -39,7 +43,6 @@ jQuery(document).ready(function(){
             xhr.setRequestHeader ("Authorization", authorization);
           }
         }).done(function( data ) {
-			
 			var venueArr = distanceSort(data);
 			updateVenueslider(data, venueArr);
 			
@@ -49,17 +52,19 @@ jQuery(document).ready(function(){
             $('#main-slider').liquidSlider('refresh');
 			}
 			,10000); */
-				
+					
+		 
           // Venue slider
           $('#main-slider').liquidSlider({
               hashLinking:false,
               crossLinks:true,
               includeTitle:true,
-              mobileNavigation:false,
+			  responsive: true,
+              mobileNavigation:true,
               firstPanelToLoad:1, // TEE TÄSTÄ LÄHIN
               autoHeight:false,
               minHeight: 0,
-              swipe: true,
+			  swipe: true,
               hideArrowsWhenMobile: true,
               dynamicArrows: false,
               slideEaseFunction:'easeInOutCubic',
@@ -67,8 +72,11 @@ jQuery(document).ready(function(){
               heightEaseDuration:800
 
             // animateIn:"slideInLeft",
-            // animateOut:"slideOutLeft"
+            // animateOut:"slideOutLeft",
+
           });
+
+		  $('#main-slider').swipe('enable');
 
           jQuery("h1.location").fitText(1.25, { minFontSize: '16px', maxFontSize: '60px' })
           // jQuery(".category").fitText(1, { minFontSize: '10px', maxFontSize: '60px' })
@@ -78,7 +86,7 @@ jQuery(document).ready(function(){
         //TODO fix this
           alert("Error: something went wrong while loading the venues");
         });
-		
+
 		
 		//Counting the distances between player and location, called from distanceSort()
 function locationCheck(data,key,locationLat, locationLon, venueLat, venueLon){
@@ -126,7 +134,6 @@ function updateVenueslider (data,arraySorted){
             $("<div>").addClass("category").addClass(getCategoryClass(data[j].category)).appendTo(venue);
             $("<h3>").addClass("title").text(getCategory(data[j].category)).appendTo(venue);
 			$("<h1>").addClass("location").text(data[j].name).appendTo(venue);
-			
 			var distance = data[j].distance;
 			var distance2 = distance*1000;                // TEMP. Shows the distance from the venue For testing
 			var distance3 = distance2.toFixed(0); 

@@ -209,6 +209,34 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="config.xml" />
+    <Content Include="www\docs\css\bootstrap.min.css" />
+    <Content Include="www\docs\css\common.css" />
+    <Content Include="www\docs\css\prettify.css" />
+    <Content Include="www\docs\css\print.css" />
+    <Content Include="www\docs\files.html" />
+    <Content Include="www\docs\img\class.png" />
+    <Content Include="www\docs\img\classicons.png" />
+    <Content Include="www\docs\img\event.png" />
+    <Content Include="www\docs\img\glyphicons-halflings-white.png" />
+    <Content Include="www\docs\img\glyphicons-halflings.png" />
+    <Content Include="www\docs\img\interface.png" />
+    <Content Include="www\docs\img\namespace.png" />
+    <Content Include="www\docs\index.html" />
+    <Content Include="www\img\gamearea.png" />
+    <Content Include="www\js\accordion.js" />
+    <Content Include="www\js\jquery-1.7.2.min.js" />
+    <Content Include="www\js\jquery.liquid-slider.js" />
+    <Content Include="www\js\prettify.js" />
+    <Content Include="www\docs\symbols\%24.fn.html" />
+    <Content Include="www\docs\symbols\%24.fn.swipe.defaults.html" />
+    <Content Include="www\docs\symbols\%24.fn.swipe.directions.html" />
+    <Content Include="www\docs\symbols\%24.fn.swipe.fingers.html" />
+    <Content Include="www\docs\symbols\%24.fn.swipe.html" />
+    <Content Include="www\docs\symbols\%24.fn.swipe.pageScroll.html" />
+    <Content Include="www\docs\symbols\%24.fn.swipe.phases.html" />
+    <Content Include="www\docs\symbols\%24.html" />
+    <Content Include="www\docs\symbols\src\jquery.touchSwipe.js.html" />
+    <Content Include="www\docs\symbols\_global_.html" />
     <Content Include="www\chat.html" />
     <Content Include="www\cordova.js" />
     <Content Include="www\css\animate.css" />
@@ -291,6 +319,7 @@
     <Content Include="www\js\jquery.fittext.js" />
     <Content Include="www\js\jquery.lettering.js" />
     <Content Include="www\js\jquery.liquid-slider-custom.min.js" />
+    <Content Include="www\js\jquery.touchSwipe.js" />
     <Content Include="www\js\jquery.touchSwipe.min.js" />
     <Content Include="www\js\leaderboard.js" />
     <Content Include="www\js\login.js" />
@@ -350,6 +379,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="www\img\icons\Thumbs.db" />
+    <None Include="www\js\bower.json" />
     <None Include="www\js\jquery-1.10.2.min.map" />
     <None Include="www\README.md" />
   </ItemGroup>
